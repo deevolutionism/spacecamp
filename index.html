@@ -12,24 +12,26 @@
 	</head>
 
 	<body>
-	<!-- 	<div id = "title">
-		<h1>Space Camp Messenger<h1>
-		</div> -->
+		<div id = "title">
+		<h2>Space Camp Messenger<h2>
+		</div>
 		<div id = "container">
 			<!-- <p> Username </p> <br> -->
 			<input type = "text" id = "username"></input>
 			<button onclick="storeUserName()">login</button>
 		</div>
-		<div>
-			<input id="string" style="height: 30px; width: 350px; font-size: 30px;"/>
-			<button id="button">Send</button>
+		<div id = "send">
+			<input id="string" style=""/>
+			<button id="button" style= "height: 20px">Send</button>
 		</div>
-		<h2>
-			Message Log <span id="status"/>
-		</h2>
-		<h1>
-			<b>Received Message: </b><span id="msg_received"/>
-		</h1>
+		<div id = "chatlog">
+		<h3>
+			<b>You just wrote: </b> <span id="status"/>
+		</h3>
+		<h3>
+			<b>Received message: </b><span id="msg_received"/>
+		</h3>
+		</div>
 
 		</br></br>
 		<div id="name">Trying to connect</div>

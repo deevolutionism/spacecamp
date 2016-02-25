@@ -5,6 +5,26 @@ body
 }
 a, a:link, a:visited { text-decoration: none; }
 
+#title {
+   margin-top: 10%;
+   text-align :center;
+
+}
+
+#container {
+   text-align: center;
+   margin-top: 2%;
+}
+
+#send {
+   text-align: center;
+   margin-top: 1%;
+}
+
+#chatlog {
+   text-align: center;
+
+}
 
 .floatingSquare
 {
