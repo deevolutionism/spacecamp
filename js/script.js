@@ -1,4 +1,4 @@
-var userName = "hey";
+var userName = "";
 
 $(window).on("load", setup);
 
@@ -57,7 +57,7 @@ $(window).on("load", setup);
 				var newString = $("#string").val();   // load text from input box
 				if (newString !== "") {               // if input box is not blank
 					console.log("Sending message " + newString); 
-					sb.send("text", "string", userName + " " + newString);   // send string to spacebrew
+					sb.send("text", "string", userName + " : " + newString);   // send string to spacebrew
 					$("#string").val("");                   // clear the text box
 					$("#status").text(userName + " : " + 	newString); // display the sent message in the browser         
 				}
