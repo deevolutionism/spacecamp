@@ -41,9 +41,9 @@ $(window).on("load", setup);
 			 * Function that is called when Spacebrew connection is established
 			 */
 			function onOpen() {
-				var message = "Connected as <strong>" + sb.name() + "</strong>. ";
+				var message = "Connected to the public server / chat: <strong>" + sb.name() + "</strong>. ";
 				if (sb.name() === app_name) {
-					message += "<br>You can customize this app's name in the query string by adding <strong>name=your_app_name</strong>."
+					// message += "<br>You can customize this app's name in the query string by adding <strong>name=your_app_name</strong>."
 				}
 				$("#name").html( message );
 			}
