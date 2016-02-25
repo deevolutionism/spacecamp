@@ -34,7 +34,7 @@ a, a:link, a:visited { text-decoration: none; }
            border-radius: 26px;
    width: 220px;
    display: inline-block;
-   font-size: 21px;
+   font-size: px;
    line-height: 50px;
    text-align: center;
    color: rgba(255,255,255,1);

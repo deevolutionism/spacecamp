@@ -74,12 +74,13 @@ $(window).on("load", setup);
 				$("#msg_received").text(value); // display the sent message in the browser         
 			}
 
+
 		
 function storeUserName() {
 
 	//Console.log("Worked");
 	userName = document.getElementById("username").value;
-	document.getElementById("demo").innerHTML = "Your username is " + userName;
+	document.getElementById("username").innerHTML = "Your username is " + userName;
 	var elem = document.getElementById("container");
 	elem.parentNode.removeChild(elem);
 
